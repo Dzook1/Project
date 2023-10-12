@@ -8,3 +8,7 @@ function solve(){
     document.getElementById('display').innerHTML = y
     return y
 }
+
+function clearDisplay(){
+    location.reload()
+}
