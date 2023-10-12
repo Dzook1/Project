@@ -13,3 +13,6 @@ function solve(){
 function clearDisplay(){
     location.reload()
 }
+function backspace(){
+    document.getElementById('display').innerHTML = document.getElementById('display').innerHTML.slice(0,-1)
+}
