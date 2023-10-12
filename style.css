@@ -16,7 +16,8 @@ body {
     height: 50px;
     line-height:70px;
     padding: 16px 8px;
-    font-size: 30px
+    font-size: 30px;
+    overflow: hidden;
 }
 
 .buttons {

@@ -1,8 +1,5 @@
-let display = document.getElementById('display');
-
-let buttons = Array.from(document.getElementsByClassName('button'));
-
-function solve()
-{
-    let x = document.getElementById('result').value
+function display(x){
+    let display = document.getElementById('display');
+    display.innerHTML += x.innerHTML;
 }
+
