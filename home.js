@@ -10,4 +10,6 @@ function solve(){
     return y
 }
 
-
+function clearDisplay(){
+    location.reload()
+}
