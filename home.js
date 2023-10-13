@@ -2,6 +2,7 @@ function display(x){
     let display = document.getElementById('display');
     display.innerHTML += x.innerHTML;
 }
+
 function solve(){
     let x = document.getElementById('display').innerHTML
     let y = eval(x);

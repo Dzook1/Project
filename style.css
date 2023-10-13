@@ -9,6 +9,7 @@ body {
     max-width: 300px;
     margin: 10vh auto 0 auto;
     box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+    background-color: white;
 }
 
 #display {
@@ -25,6 +26,7 @@ body {
     border-bottom: 1px solid #999;
     border-left: 1px solid #999;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: white;
 }
 .buttons > div {
     border-top: 1px solid #999;
@@ -49,3 +51,37 @@ body {
     color: white;
     transition: 0.5s ease-in-out;
 }
+
+body{
+    background-color: skyblue;
+    position: relative;
+}
+
+#img1{
+    position: relative;
+    transform: scale(0.5);
+    right: 100px;
+    bottom: 50px;
+}
+
+#img2{
+    position: relative;
+    transform: scale(0.5);
+    bottom: 350px;
+}
+
+#img3{
+    position: relative;
+    transform: scale(1.10);
+    bottom: 250px;
+    right: 230px;
+}
+
+#img4{
+    position: relative;
+    transform: scale(0.6);
+    left: 1050px;
+    bottom: 600px;
+}
+
+
